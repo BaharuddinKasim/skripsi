@@ -10,10 +10,9 @@ run:
 	pdflatex $(DOCNAME).tex
 
 clear:
-	rm $(DOCNAME).aux;
-	rm $(DOCNAME).bbl;
-	rm $(DOCNAME).out;
-	rm $(DOCNAME).blg;
-	rm $(DOCNAME).log;
-	rm $(DOCNAME).run.xml;
+	rm $(DOCNAME).bbl
+	rm $(DOCNAME).out
+	rm $(DOCNAME).blg
+	rm $(DOCNAME).log
+	rm $(DOCNAME).run.xml
 	echo "Cleared"
